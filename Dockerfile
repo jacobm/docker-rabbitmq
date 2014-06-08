@@ -1,8 +1,6 @@
 FROM      ubuntu:trusty
-MAINTAINER Jacob Mortensen "jacob.mortensen.it@gmail.com"
+MAINTAINER Jacob Mortensen <jacob.mortensen.it@gmail.com>
 
-# RUN echo "nameserver 8.8.8.8" > /etc/resolve.conf
-# RUN cat /etc/resolve.conf
 
 RUN apt-get update
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y rabbitmq-server
