@@ -3,7 +3,7 @@ Simple test setup of RabbitMq with guest/guest user login allowed outside of loc
 
 ## Usage
 
-To build jacmb/rabbitmq:
+To build:
 
 ```
 docker build -t jacobm/rabbitmq .
